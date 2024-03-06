@@ -1,5 +1,4 @@
-# 4070TI-CUDA
-win10+4070ti+cuda+cudnn
+# win10+4070ti+cuda+cudnn 安裝紀錄
 1. cuda v11.2  https://developer.nvidia.com/cuda-toolkit-archive
 2. cudnn v8.1.0
 3. NV驅動 528.02
