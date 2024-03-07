@@ -9,11 +9,17 @@ tensorflow-gpu<=2.4
 
 # cuda v11.2出現錯誤
 
-Tensorflow GPU Could not load dynamic library 'cusolver64_10.dll'; dlerror: cusolver64_10.dll not found
+1. Tensorflow GPU Could not load dynamic library 'cusolver64_10.dll'; dlerror: cusolver64_10.dll not found
 
 參考: https://stackoverflow.com/questions/65608713/tensorflow-gpu-could-not-load-dynamic-library-cusolver64-10-dll-dlerror-cuso
 ![image](https://github.com/CHIJUI0128/4070TI-CUDA/assets/56662495/c38fd850-6c4b-4b6d-ba46-1daca9d15e07)
 
+2. Could not load library cudnn_ops_infer64_8.dll. Error code 126 Please make sure cudnn_ops_infer64_8.dll is in your library path
+
+整個bin、include、lib資料夾裡面檔案都放
+![image](https://github.com/CHIJUI0128/4070TI-CUDA/assets/56662495/31606506-3589-4c8c-bd9d-94fee41d0bf9)
+
+參考: https://stackoverflow.com/questions/66355477/could-not-load-library-cudnn-ops-infer64-8-dll-error-code-126-please-make-sure
 
 # 測試
 1. cuda
